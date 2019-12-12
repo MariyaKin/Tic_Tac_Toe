@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	  </head>
+  <body >
+  <header>
+  <h1>TIC TAC TOE</h1>
+  </header>
+  <br />
+  <br />
+  <br />
+  <br />
+  <table  border="1">
+  <tr>
+  <td><input type="button" id="1" onclick="getvalue(1)" value=""/></td>
+  <td><input type="button" id="2" onclick="getvalue(2)" value=""/></td>
+  <td><input type="button" id="3" onclick="getvalue(3)" value=""/></td>
+  </tr>
+  <tr>
+  <td><input type="button" id="4" onclick="getvalue(4)" value=""/></td>
+  <td><input type="button" id="5" onclick="getvalue(5)" value=""/></td>
+  <td><input type="button" id="6" onclick="getvalue(6)" value=""/></td>
+  </tr>
+  <tr>
+  <td><input type="button" id="7" onclick="getvalue(7)" value=""/></td>
+  <td><input type="button" id="8" onclick="getvalue(8)" value=""/></td>
+  <td><input type="button" id="9" onclick="getvalue(9)" value=""/></td>
+  </tr>
+  </table>
+  
+  <button onclick="zclear()" id="reset">Play Again</button>
+  
+  <section align="center" id="popup">
+  <p id="text">text</p>
+  <button id="popupbutton" onclick="zclear()">Ok</button>
+  </section>
+  
+  <section id="overlay"></section>
+  <script src="script.js"></script>
+  
+  </body>
+</html>
